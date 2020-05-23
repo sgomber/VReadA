@@ -1,4 +1,4 @@
-# Language-Scorer
+# VReadA: The Visual Readability Analyzer
 
 ## Installations
 First install python3 and pip3 (python package installer) on your machine.
@@ -9,10 +9,10 @@ bash requirements.txt
 
 ## Usage
 
-After installing the dependencies, use the below code to get the results for the file Sample.txt (present in the Samples folder).
+After installing the dependencies, use the following command to start using VReadA
 
 ```bash
-python3 scorer.py Samples/Sample.txt
+python3 launch.py
 ```
 
 The scores can be seen in the Results_Sample.csv file and the graphical visualization is stored as Results_Sample.png in the Results folder.
